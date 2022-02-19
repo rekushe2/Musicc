@@ -43,6 +43,7 @@ async def restart(client, m: Message):
     await loli.edit("8")
     await loli.edit("9")
     await loli.edit("**✅ تم اعاده تشغيل موسيقى سورس DeMon")
+    Reku("تم تحديث سورس وتسريع بوت اي مشكله راسلني @iiwiw قناة البوت @cen3d")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 @Client.on_message(filters.command(["اوامر الاغاني"], prefixes=f"{HNDLR}"))
@@ -70,6 +71,7 @@ Ordera by music DeMon @cen3d
 * لأعاده تشغيل التنصيب أرسل <=  [ `{HNDLR}تحديث` ]
 ———————×———————
  """
+    Reku("كل شي كبالك اي خلل راسلني @iiwiw")
     await m.reply(HELP)
 @Client.on_message(filters.command(["الريبو"], prefixes=f"{HNDLR}"))
 async def repo(client, m: Message):
